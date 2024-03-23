@@ -27,7 +27,6 @@ class NeuralSearcher:
                     "value": city_of_interest
                 }
             }])
-            print("City Filter:", city_filter)
             # Use `vector` for search for closest vectors in the collection
         search_result = self.qdrant_client.search(
             collection_name=self.collection_name,
