@@ -30,7 +30,9 @@ Calling the Neural Search Service from Another Microservice (Task 2):
 
 In your second microservice (Task 2), you make HTTP requests to the neural search service created in Task 1.
 I provide a CURL command as an example of how to call the neural search service, specifying the query text and parameters in the URL.
+
 curl --location 'http://localhost:8000/api/search?q=Are%20there%20startups%20about%20wine%3F'
+
 Given this setup, here are some additional considerations and steps you might need to take:
 
 Ensure that the Neural Search Microservice (Task 1) is running and accessible at http://localhost:8000.
