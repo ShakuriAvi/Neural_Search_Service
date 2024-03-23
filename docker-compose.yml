@@ -1,0 +1,9 @@
+version: '2.2'
+services:
+  qdrant:
+    image: qdrant
+    container_name: "qdrant/qdrant"
+    restart: unless-stopped
+    ports:
+      - '6333:6333'
+
